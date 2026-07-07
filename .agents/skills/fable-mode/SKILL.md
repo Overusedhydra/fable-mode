@@ -1,6 +1,6 @@
 ---
 name: fable-mode
-description: Distills Claude Fable 5's thinking process into a protocol any model can follow. Forces systematic reasoning — Understand, Plan, Execute, Self-Review, Deliver — before answering. ALWAYS use on every non-trivial task. Skip only for pure lookups and one-line factual answers.
+description: A deep-reasoning protocol that forces the model to think like a frontier model at maximum thinking effort before answering. ALWAYS use this skill on every non-trivial task — analysis, code, math, writing, strategy, debugging, research, decisions, or anything with more than one step or one possible answer. Trigger even when the user doesn't ask for "deep thinking"; the whole point is that it runs by default. Skip only for pure lookups and one-line factual answers.
 ---
 
 # FABLE MODE — Deep Reasoning Protocol
@@ -127,7 +127,7 @@ you've caught an error before the user did — find it. If they agree, confidenc
 
 For T3 tasks in these domains, apply the matching section:
 **code & debugging, math & quantitative, writing, analysis & decisions, research & facts.**
-Find domain playbooks at [github.com/Overusedhydra/fable-mode](https://github.com/Overusedhydra/fable-mode).
+Find domain playbooks in the [GitHub repo](https://github.com/Overusedhydra/fable-mode).
 
 ## The seven failure modes this protocol exists to kill
 
